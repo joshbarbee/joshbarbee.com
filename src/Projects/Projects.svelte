@@ -27,7 +27,10 @@
 
 </script>
 
-<div class = "container">
+<div class = "container" id = "projects">
+  <div>
+    <h1>Projects: </h1>
+  </div>
   <div class = "row">
     <div class = "col m4">
       <div class = "card">
@@ -46,7 +49,6 @@
           </div>
           <a class="btn-floating halfway-fab waves-effect waves-light" href = "https://github.com/joshbarbee/Survey-mm/"><i class="material-icons">code</i></a>
           <p>This project extracted survey data from a CSV and then conducted weighted comparision tests between the survey respondents. The project utilizes NumPy/Pandas for data analysis and leverages multithreading via ThreadPoolExecutor, then outputs the data results to a SQL DB.</p>
-          
         </div>
       </div>
     </div>
@@ -80,6 +82,7 @@
               <img src = "/images/icons/js-icon.png" alt = "nodejs ico">
             </div>
           </div>
+          <a class="btn-floating halfway-fab waves-effect waves-light" href = "https://github.com/joshbarbee/joshbarbee.com"><i class="material-icons">code</i></a>
           <p>This website serves as a forray into Javascript development for me, particularly front-end JS. SvelteJS is being used for front-end reactive content and Materialize-CSS for css styling.</p>
           <div style = "padding-bottom: {paddings[2]}px;"></div>
         </div>
@@ -102,5 +105,10 @@
   .chip {
     margin: 0;
     padding: 0;
+  }
+
+  h1 {
+    margin: 0 auto;
+    text-align: center;
   }
 </style>
