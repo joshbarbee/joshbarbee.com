@@ -38,13 +38,13 @@
           <span class = "card-title">Survey MM</span>
           <div>
             <div class = "chip">
-              <img src = "/images/icons/python-icon.png" alt = "python icon">
+              <img class = "chip-img" src = "/images/icons/python-icon.png" alt = "python icon">
             </div>
             <div class = "chip">
-              <img src = "/images/icons/numpy-icon.svg" alt = "numpy icon">
+              <img class = "chip-img" src = "/images/icons/numpy-icon.svg" alt = "numpy icon">
             </div>
             <div class = "chip">
-              <img src = "/images/icons/sql-icon.png" alt = "sql icon">
+              <img class = "chip-img" src = "/images/icons/sql-icon.png" alt = "sql icon">
             </div>
           </div>
           <a class="btn-floating halfway-fab waves-effect waves-light" href = "https://github.com/joshbarbee/Survey-mm/"><i class="material-icons">code</i></a>
@@ -58,10 +58,10 @@
           <span class = "card-title">Colligo</span>
           <div>
             <div class = "chip">
-              <img src = "/images/icons/python-icon.png" alt = "python icon">
+              <img class = "chip-img" src = "/images/icons/python-icon.png" alt = "python icon">
             </div>
             <div class = "chip">
-              <img src = "/images/icons/cplusplus-icon.png" alt = "c++ icon">
+              <img class = "chip-img" src = "/images/icons/cplusplus-icon.png" alt = "c++ icon">
             </div>
           </div>
           <a class="btn-floating halfway-fab waves-effect waves-light" href = "https://github.com/joshbarbee/Colligo"><i class="material-icons">code</i></a>
@@ -76,10 +76,10 @@
           <span class = "card-title">joshbarbee.com</span>
           <div>
             <div class = "chip">
-              <img src = "/images/icons/svelte-icon.png" alt = "svelte ico">
+              <img class = "chip-img" src = "/images/icons/svelte-icon.png" alt = "svelte ico">
             </div>
             <div class = "chip">
-              <img src = "/images/icons/js-icon.png" alt = "nodejs ico">
+              <img class = "chip-img" src = "/images/icons/js-icon.png" alt = "nodejs ico">
             </div>
           </div>
           <a class="btn-floating halfway-fab waves-effect waves-light" href = "https://github.com/joshbarbee/joshbarbee.com"><i class="material-icons">code</i></a>
@@ -98,8 +98,12 @@
 
   img {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     border-radius: 0;
+  }
+
+  .chip-img {
+    margin: 0 auto;
   }
 
   .chip {
@@ -110,5 +114,9 @@
   h1 {
     margin: 0 auto;
     text-align: center;
+  }
+
+  div {
+    font-family: var(--default-font-family);
   }
 </style>

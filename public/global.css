@@ -68,4 +68,8 @@ button:focus {
 	--tertiary-color: #7191ff;
 	--text-font-size: 18px;
 	--header-font-size: 4.2em;
+	--default-margin: 18px auto;
+	--default-padding: 36px;
+	--large-margin: 54px auto;
+	--default-font-family: 'Ubuntu', sans-serif
 }
