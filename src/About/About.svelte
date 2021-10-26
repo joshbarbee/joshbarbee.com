@@ -102,6 +102,13 @@
                     "Researched automation of TLS certificate generation via leveraging LetsEncrypt."
                 ]
             }
+        ],
+        projects_and_competitions : [
+            {
+                event: "BuckeyeCTF 2021",
+                description: "Ohio State's Cybersecurity Club's annual Capture the Flag competition. Most of my participation was solving web-related challenges, especially those pertaining to XSS and command injections. My team placed first amongst OSU students and 7th amongst undergrads.",
+                place: 1,
+            },
         ]
     };
 
