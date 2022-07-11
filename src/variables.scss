@@ -1,0 +1,12 @@
+/* Variables and mixins declared here will be available in all other SCSS files */ /* https://github.com/jgthms/bulma/issues/1293 */
+$body-overflow-y: auto;
+
+$background: #012840;
+$background2: #011420;
+$background_dark: #000A10;
+$background_light: #dedede;
+
+// all text color schemes, styling
+$text_primary: #F0F0F0;
+$text_gray: #8F8F8F;
+$text_darkgray: #3A3A3A;
